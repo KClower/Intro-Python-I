@@ -23,6 +23,17 @@ print(a[-3:])
 # Output the two middle elements in the array: [1, 7]
 print(a[2:4])
 
+"""
+start = 0 
+end = 0
+for i in range(0, len(a)):
+    if a[i] == 1:
+        start = i
+    if a[i] == 7:
+        end = i + 1
+print(a[start:end])
+"""
+
 # Output every element except the first one: [4, 1, 7, 9, 6]
 print(a[1:])
 
